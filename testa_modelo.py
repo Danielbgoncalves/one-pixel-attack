@@ -66,7 +66,7 @@ probability_model = tf.keras.Sequential([model, tf.keras.layers.Softmax()])
 # Mostrar 5 imagens com predição
 num_images = 6
 #indices = np.random.choice(len(x_test), num_images, replace=False)
-indices = [43,222,980,987,985,321]
+indices = [4,863,923,145,971,34]
 plt.figure(figsize=(10, 5))
 
 for i, idx in enumerate(indices):
